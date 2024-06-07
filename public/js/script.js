@@ -119,3 +119,28 @@ Math.ceil(Math.random()* 1000000);
     console.log('Notify friends!',i);
   }
   
+  // String concatenation
+const firstname = 'Esther';
+const lastname = 'Crentsil';
+firstname.trim() + ' ' + lastname.trim();
+// put space inside the single quote to create a space 
+// Using the trim method prevent multiplespace/any additional space in strings
+
+//Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+//preferred one to use
+
+//String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.charAt(0);
+//space is also a position in strings
+firstname.trim().charAt(0) + '' + lastname.trim().charAt(0);
+
+//String Conversion
+String(2014);
+
+
