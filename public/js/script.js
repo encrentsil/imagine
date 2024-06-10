@@ -143,4 +143,30 @@ firstname.trim().charAt(0) + '' + lastname.trim().charAt(0);
 //String Conversion
 String(2014);
 
+//Write a function that will add a partipant to our google classroom
+const participants = [];
+
+function addParticipant(email){
+ //Check if email was provided
+  if (!email) {
+    return 'Email not provided';
+  }
+  //Check if email is valid
+  if (!email.includes('@')){
+    return 'Invalid email provided';
+  }
+   //Add email to the participant  
+  participants.push(email);
+  //Check if email is valid
+  //Notify them via email
+  //return response
+return 'Participant added!';
+}
+addParticipant('mickeymonday@yahoo.com');
+//Arrays In Javacsript
+const alphabets = ['A', 'B','C', 'D'];
+alphabets.join(' ');
+alphabets.join('').split('')
+
+  
 
